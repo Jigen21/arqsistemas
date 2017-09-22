@@ -1,0 +1,135 @@
+1: crear todo en 1 solo comando
+
+
+/aplicacion/datos/fotos.dat
+
+	   /datos/index.html
+
+	   /funciones/ListadoConSaludo
+
+
+22/09/17
+
+
+   echo "Enunciado del repaso" >> Enunciado
+
+   diferencia entre el more y el cat,el more lo hace en pagina
+
+   ls
+   more Enunciado
+   echo "1 - cargar historial
+
+   siempre desde el subdirectorio aplicacion,para crear el archivo fotos.dat
+   con el historial de la consola
+
+   1:cargar el historial eon fotos.dat
+
+   echo "1 - cargar historial" >> Enunciado
+   echo "2 - descargar la pagina de google en el archivo index.html" >> Enunciado
+   echo "3 - crear el archivo ListadoConSaludo,que contenga el mensaje bienvenido" >> Enunciado
+   echo "4 - cargarle el comando para listar con detalles para humano,siempre hablando del listado con saludo" >> Enunciado
+   echo "5 - hacer ejecutable el listado con saludo" >> Enunciado
+
+   desde el index.html,invocar al listado con saludo y me de un saludo de 
+   bienvenida,y me liste la informacion con salida para humanos	
+
+   1- history > fotos.dat                 ->copia el historial en fotos.dat
+   
+   para activar internet,ir a configuracion de la maquina virtual,en red
+   y poner como adaptador puente
+
+   2- tiene 2 formas de hacerlo,con el wget y el curl
+      con los mismos comandos lograr la misma funcionabilidad
+
+   wget www.google.com
+
+   curl copy url
+
+   3 - echo "bienvenido" >> ListadoConSaludo
+
+   4 - echo "ls-la" >> ListadoConSaludo
+
+   5 - chmod +x ListadoConSaludo
+   
+   nos paramos adentro de datos,bajamos un nivel,subimos funciones y llegamos
+   hasta listado con saludo
+
+   ./ListadoConSaludo      -> ejecuta el archivo
+
+
+
+
+   6 - echo "6 - crear el subdirectorio usuario" >> Enunciado
+
+   mkdir Usuario
+   
+   7 - echo "7" - crear el subdirectorio fotos dentro de usuario" >> Enunciado
+    
+   mkdir Fotos  
+
+   8 - echo "8 - mover el archivo fotos.dat al subdirectorio fotos" >> Enunciado
+   
+   9 - echo "9 - mover el subdirectorio datos a usuario" >> Enunciado
+
+
+     1-	el bin es un subdirectorio estatico
+        no importa lo que pase,va a estar igual,
+	esta lo binario,lo compilado,los comandos que nosotros usamos
+
+
+     2- boot   -> tambien es estatico,los archivos de configuracion
+		  van a estar afuera de esto,dentro podemos encontrar
+		  lugares que no estan cargados en la ram
+ 
+     	
+     3- dev    -> device,nos muestra las particiones.poder agregarle memoria
+	          a los discos,con pendrives,y acumularlos
+
+     4- etc    -> siempre que tengamos problemas vamos a ir a etc,desde las opciones
+		  hasta las aplicaciones,el lugar donde vamos a modificar cosas
+		  guarda informacion importante del sistema operativo y de la maquina
+	          no es un subdirectorio compartido		
+		
+     5- home   -> el paralelo de windows,mis documentos
+		  si quiero un archivo privado en windows,lo guardo en mis documentos
+	          aca podemos decir si los ve el administrador,el grupo o cualquiera
+
+
+     6- lib y lib64  -> las librerias,
+
+			las librerias de 32,son las viejas,drivers de placas,estan en lib
+                        linux tiene la particularidad de mantener drivers de todo
+			para los microprocesadores de 64,esta la de 64,no existe la libreria de 32
+			(poner que no existen en el parcial)
+
+     7-  media ->    dev tiene la parte fisica de los dispostivos,y el punto de montaje
+		     estan en media.
+
+     8-  sbin  ->    bin y sbin,los 2 archivos son  binarios,al sbin solo puede entrar el root,
+ 		     al bin pueden entrar el usuario y el root,en users tambien existe una carpeta sbin
+		     sbin de users,es compartida,la puedo compartir en un sistema bajo unix o linux
+                     
+     9  mnt    ->    esta muy relacionado con media,tenemos los archivos montados actualmente
+     
+     10 opt    ->    estatico,no nos interesa lo que tiene,las opciones de todas las carpetas anteriores
+
+     11 root   ->   directorio de inicio del usuario administrador,con sudo su arrancamos en este subdirectorio
+	            (root)
+
+     12 run    ->    
+
+     13  srv   -> vamos a poner nuestros servidores,y los va a incializar de aca
+
+     14  sys   ->  la parte del hardware,lo que comunica al hardware con el software,el kernel
+
+     15  users  ->  tiene datos del usuario
+
+     //df -h var muestra el tamaño humanizado
+
+     16  tmp   ->  
+
+     17  var   ->   //en var/crash   nos muestra los errores de la maquina,podemos ir y borrarlo
+		    ya que no sirve
+                    
+                    //var tmp   ->   guarda los archivos temporales entre inicio e inicio
+   
