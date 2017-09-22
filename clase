@@ -10,6 +10,8 @@
 
 22/09/17
 
+	hacer el tp de github,y ver apuntes del 1 al 6 para el parcial
+
 
    echo "Enunciado del repaso" >> Enunciado
 
@@ -132,4 +134,66 @@
 		    ya que no sirve
                     
                     //var tmp   ->   guarda los archivos temporales entre inicio e inicio
+
+
+
+       more /etc/passwd       -> more passwd
+       more /etc/shadow       -> more shadow
+       
+       2 archivos importantes
+
+       passwd lo ve cualquier usuario,puedo descargarme todos lo usuarios que tuvo
+       shadow, se entra con sudo su,vamos a inicializar en home despues de usar sudo su
+
+      proc y sys no ocupan lugar en el disco,se cargan en memoria
+      
+       cd proc    -> listado de todos los procesos que estan corriendo en el momento	
+
+       ls -l | more
+
+       los procesos trabajan de la siguiente manera,guarda en la base de datos,cada proceso
+       es una aplicacion distinta,cada uno esta utilizado por el anterior,si mato al proceso padre
+       mueren los procesos hijos,sino quedan como procesos zombies(huerfanos)
+       el proceso mas importante es el 1,del que salen todos	
+
+       cat 100
+       cmd line
+       cat meminfo dentro de proc(cambia a cada momento por la memoria ejecutada)
+       con watch inspecciono los cambios que se realizan sobre ese archivo,o con grep dentro del watch
+       podemos ver 1 renglon
+       
+       watch cat meminfo
+
+ 	watch grep 'active' cat meminfo
+	watch cat cpuinfo      ->siempre es el mismo.
+
+	var y temp almacenan los logs,y los historys
+
+Librerias-paquetes
+	entender que es un paquete
+
+	//linuxfromscratch.org
+
+	apt-get      ->trae nuevos paquetes,
+
+	sudo su   
+	
+	en home  ->     apt-get install terminator         ->instala la consola
+	
+	apt-get update   ->todos los paquetes relacionados con internet,compara con la maquina y
+			    baja las actualizaciones,los que yo elijo se van a actualizar
+
+	tar xv    ->    descomprime
+
+	paquetes estables: sabes que funciona,ya estan en el sistema
+        paquetes testing: no sabemos si funcionan bien o no
+        paquetes inestables: es el anterior al testing,no sabemos si anda
+
+	apt-get check    ->verifica los paquetes ,verifica si existe alguna dependencia huerfana,zombie
+
+	man apt-get
+
+        //si ya esta estable no conviene actualizar 
+	
+
    
