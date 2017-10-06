@@ -106,6 +106,50 @@ Particiones
 
 	fdisk /dev/sdb
 
-	sudo su -fdisk /dev/sdb
+	m
+	
+	n
+	
+	p
+	
+	enter
+	
+	enter
+
+
+	//sudo su -fdisk /dev/sdb
+
+	//sudo fdisk /dev/sdb
+
+
+	puedo elegir si creo una primaria o extendida
+	lo asigna aotuomaticamente,el primer sector
+
+	+500M   < para los megas y crea la particion de 500MB
+
+        +800M
+
+	le doy todo enter hasta el last sector y le doy el tamaño
+
+	todo en last sector
+
+	si salgo sin guardar no se quedan las particiones
+
+	con i veo las particiones,el fdisk va a escribir en el disco rigido
+	con w guardamos las particiones en la maquina
+	falta montar los discos rigidos
+
+	ls -l /dev/sd*     >> tenemos las particiones
+
+	con el format le estoy diciendo que tipo de archivos va a tener,64,32,swap,
+	
+	mkfs     >> para darle formato
+
+	sudo mkfs /dev/sdb1   >> crea un sistema de ficheros
+
+
+	
+
+
 
 	
