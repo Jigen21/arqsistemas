@@ -145,7 +145,25 @@ Particiones
 	
 	mkfs     >> para darle formato
 
-	sudo mkfs /dev/sdb1   >> crea un sistema de ficheros
+	sudo mkfs /dev/sdb1   >> crea un sistema de ficheros,y lo deja en escritorio
+
+	mkdir -r discoRigido    >  vamos a montar el disco en ese directorio
+
+	sudo mount /dev/sdb1 discoRigido
+	
+	df -h discoRigido     >>tamaño del disco luego de haber sido formateado
+
+	particionamos el disco rigido de 4gb en dos,una de 500 y otra de 800,las dos
+	siendo particiones primarias,vamos a crear otra que tenga 1 gb,que tambien sea
+	particion primaria,y el resto que sea una particion extendida
+	siempre sobre fdisk dev/sdb
+
+	umount     > recibe fileSystem,directorio device      desmonta el disco
+
+	
+
+
+	
 
 
 	
