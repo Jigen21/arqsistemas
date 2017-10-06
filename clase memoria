@@ -212,7 +212,29 @@ Cuarta etapa:Init
 
 	ps -e
 		
+	top        >> me da informacion de los procesos
 
+	pdi    =process id,tendria que ir al subdirectorio /proc y buscar el id del procesos para ver lo archivos
+
+	ni   >>> puede ir de -20(alta prioridad) a 20(no es importante,sin prioridad)
+
+	cambiando la prioridad en el servidor,puedo decirle a que procesos darle prioridad
+
+	renice     >> cambia la prioridad del proceso,recibe proceso y el numero
+
+	todos los procesos tienen un estado determinado,los activos son los que vemos,
+	los zombies,huerfanos: procesos que mato al padre y nadie los utiliza
+	procesos dormidos:,esperan que ocurra un evento para hacer algo,estan en memoria
+	proceso parado:,a diferencia del dormido no puede continuar solo,esta esperando que 
+	nosotros le digamos que continue
+	proceso intercambiado:
+	proceso ejecutandose:
+
+	
+	
+		
+
+	
 
 
 	
