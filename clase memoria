@@ -165,6 +165,16 @@ Particiones
 	mkfs(Make File System)
 
 
+	discoUno
+	discoDos
+	discoTres
+	discoCuatro
+
+
+	montar los tres primeros discos,y luego la reserva en el discoCuatro
+	al de reserva crearle una particion logica del 50% de su tamaño
+
+
 	
 
 
