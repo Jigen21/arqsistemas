@@ -1,0 +1,111 @@
+6/09/17
+
+	>memoria<
+
+	comando meminfo
+
+	leer apuntes nuevos del github
+
+	en linux todo lo que esta en memoria esta en un archivo,aunque
+	podemos inspeccionarlo aunque este en la memoria ram
+	linux no tiene disco fisico
+
+	free      <  nos da la cantidad de memoria disponible y usada,
+
+	free -m     < nos da los valores pero mas simplificados
+
+	la memoria ram es la que utilizamos para expandir,porque es una de las
+        mas rapidas,es la unica que modificamos
+	
+	los registros y la memoria cache que son los mas rapidos,no los podemos
+	modificar
+	se pueden quitar y poner dependendiendo del nivel de la cache
+
+	meminfo < archivo que guarda en tiempo real la informacion de la memoria
+
+	cat /proc/meminfo
+
+
+	cat /top   ??
+
+	la cpu necesita si o si datos,procesos de entrada,informacion de salida
+	lo primero que hace es encontrarse con los registros interos,
+	cuando la capacidad de esos registros es superada pasa a la cache(L1,L2,L3)
+
+	CPU  >>>>   R(CACHE)   (L1 ,  L2  ,  L3)
+
+	 !
+	 |
+	 |
+
+	RAM
+
+	 |
+	 |
+	 |
+	Memoria Virtual
+
+	cuando mi cpu se queda sin l1,l2,l3 para almacenar informacion pasa a la
+	memoria ram,(la memoria ram es cualquier memoria,memoria de acceso no secuencial)
+	memoria principal y la memoria secundaria
+	la principal es la que usa para pensar
+	la secundaria para almacenar
+	windows logro que separemos eso entre ram y disco rigido
+	la memoria ram puede ser parte de un disco rigido(Se puede transformar
+	en memoria virtual)
+	la memoria virtual es la que va al disco rigido
+
+	si la memoria virtual es lenta,toda la maquina es lenta,
+
+	las Vram see leen y se escriben a la misma velocidad,por el buffer
+	lo que importa es la velocidad de la memoria,no tanto el microprocesador
+	en la memoria principal van a estar todos nuestros programas
+
+
+	la funcionalidad de la cache es almacenar los ultimos datos,si tengo
+	que volver a leerlos,ya los tengo almacenados
+	yo puedo establecer en mi software que iteraciones quiero que se
+	guarden en la cache,hace que ande mas rapido
+
+	htop      < comando para ver memoria del top
+	vmstat    < da la misma informacion que el top o el meminfo
+
+	si se apaga una maquina y quiero ver que informacion fue al ultima que 
+	se uso,la memoria ram la perdi,sin energia no puede almacenar informacion,
+	por eso es tan rapido,almacena energia,pero la memoria virtual,ya que es 
+	un disco rigido(almacenadores fisicos de informacion),para recuperar
+	la informacion existen algunos comandos,en linux tambien existen aplicaciones
+	(como santoku),los programas mas utilizados y mas grandes van a estar en la
+	memoria virtual
+
+	ls /dev/sd*
+
+	cada uno de estos va a ser un disco rigido	
+	
+	sda
+	sdb
+	sdc
+
+Particiones
+
+	fisicas  <>>  van de un lugar a otro,se hacen de una division,pueden
+	tener como maximo 4 particiones,pero una de esas particiones se puede
+	subdividir a mas particiones logicas.
+	puedo tener 2 fisicas y la tercera que sean varias logicas,
+	las logicas pueden ser infinitas,pero solo 4 particiones primarias fisicas
+	
+	
+	SDA                                     SDB
+
+        //la particion 1 del disco rigido A
+	SD 1
+
+	fdisk n
+
+	fdisk
+
+	fdisk /dev/sdb
+
+	sudo su -fdisk /dev/sdb
+
+	
