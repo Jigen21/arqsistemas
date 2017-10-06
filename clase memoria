@@ -175,10 +175,43 @@ Particiones
 	al de reserva crearle una particion logica del 50% de su tamaño
 
 
-	
 
+Procesos 
 
+	Se encuentran en /proc,con kill matamos(15 es el por defecto,el 9 es el asesino)
+	cuando inicia cualquier dispositivo,verifica que esten todos los perifericos
+	el cpu solo puede funcionar si tiene algun dispositivo de entrada o salida
+	y de almacenamiento,verifican el hardware(sistema basico de entrada y salida de informacion)
+	todo ocurre cuando prendo la computadora,no despues,el boot loader levanta el sistema
+	podemos configurar el fondo,con el group
+	el boot loader esta en el windows ini,puede detectar sistemas anteriores,pero no detecta
+	los de linux
+	el group si detecta los de windows,y todos los que tenga de linux
+	el primero que va a aparecer es el ultimo que se instalo,puedo entrar por consola para
+	cambiar las opciones	
+
+Tercera etapa:Kernel
+
+	cargar todos los dispositivos,y ver que drivers utilizo,el kernel de linux tiene los 
+	drivers en lib,puedo usar mi linux en una maquina vieja sin necesidad de instalar los drivers
 	
+Cuarta etapa:Init
+
+	tipo de proceso 1,cuando se inicia se van creandno distintos procesos y usuarios
+	una aplicacion puede ser un usuario,en linux puedo ver los usuarios creados,y les puedo dar
+	permisos,haciendolos comportar como usuarios,no como en windows que no puedo ver los usuarios
+	los procesos estan asociados a un usuario y a un determinado usuario,un proceso no esta abierto
+	por el programa,sino que por nosotros(los usuarios),los procesos para ver la memoria los
+	crea el sistema operativo(procesos demonios:procesos del mismo sistema operativo)
+
+	/proc
+	
+	ls -l   more  <<ver comandos en proc
+
+	ps              <<< los procesos que tengo(consola,comando ps)
+
+	ps -e
+		
 
 
 
