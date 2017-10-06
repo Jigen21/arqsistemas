@@ -160,7 +160,9 @@ Particiones
 
 	umount     > recibe fileSystem,directorio device      desmonta el disco
 
-	
+	luego df -h discoRigido     >> nos va a mostrar como 7 gb libres
+
+	mkfs(Make File System)
 
 
 	
