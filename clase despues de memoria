@@ -68,4 +68,53 @@ Usuarios y grupos
 		
 		en la raiz,luego en /etc,hago un cat de shadow y passwd para ver los usuarios
 
+		cat etc/passwd		el passwd tiene cada usuario,la ruta en la cual va a poder afectar
+			
+		cat etc/shadow		el shadow tiene el password,encriptado
 
+		cat etc/group   los nombres de los grupos de usuarios
+
+		groupadd aula       --->agregamos un grupo llamado aula
+
+		cat /etc/group      -->vemos el nuevo grupo ingresado
+
+	vamos a agregar un usuario,con distintos modificadores
+
+		useradd -s /bin/bash -c "usuario Quinteros" -g aula -G sudo,admin Axel
+
+		sudo useradd -s /bin/bash -c "usuario Quinteros" -g aula -G sudo,admin Axel
+
+		sudo useradd -s /bin/bash -c "usuario Quinteros" -g aula sudo Axel
+
+			-s al usuario le pasamos que la consola va a ser /bin/bash
+
+			-c 
+
+			-g atributo principal
+			-G grupos secundarios a los que pertenece
+			   y por ultimo el nombre del usuario
+
+			-m nos crea el home
+			
+			id Axel,para ver si existe el usuario
+
+
+	grep aula /etc/group    --->buscamos la coincidencia con aula
+
+	sudo login
+
+	passwd para crearle un password al usuario
+
+		->> passwd Axel
+			agregamos la contraseña
+
+			--> sudo login
+
+				Axel
+				qwerty
+		
+
+		sudo mkdir -p Carpeta
+		nos va a pedir nuestra nueva contraseña
+
+		ls -l   ----> va a mostrar los permisos,la carpeta creada va a ser root,root
