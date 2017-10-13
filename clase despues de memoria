@@ -1,0 +1,38 @@
+13/10/17
+	
+		Practica de memoria
+
+	4Gb		3Gb
+
+      50%|50%         1GB|2GB
+
+
+/DISCOUNO   /DISCOUNOBIS   /OTRO   /OTRODOS
+
+
+sudo fdisk /dev/sdb
+
+  n >> particiono el primer disco en 2,uno de 2gb y el otro tambien,los listo
+  con p y lo guardo con la w.
+
+  los formateo con mkfs /dev/sdb1
+		   mkfs /dev/sdb2
+		   mkfs /dev/sdc1
+	           mkfs /dev/sdc2
+
+	creo los directorios en el escritorio y los monto:
+	
+			mount /dev/sdb1 discoUno
+			mount /dev/sdb2 discoUnoBis
+			mount /dev/sdc1 discoDos
+			mount /dev/sdc2 discoDosBis	
+
+	los listo con 
+			df -h discoUno
+			df -h discoUnoBis
+			df -h discoDos
+			df -h discoDosBis
+		
+	o los listo genericamente con
+		
+			df -h
