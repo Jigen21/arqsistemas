@@ -128,4 +128,49 @@ Usuarios y grupos
 		userdel -r Axel      -> borra el usuario
 		groupdel aula        -> borra el grupo
 
+
+
+     practica del segundo parcial
+
+	
+los permisos son bloqueos constantes de operaciones sobre otros permisos
+si un permiso esta sobre un archivo,solo como administrador puedo cambiarlo
+o darle permiso a otros usuarios para cambiarlo,a los mismos usuarios les
+puedo dar permisos a los usuarios con chmod,
+
+crear 2 o mas grupos que engloben a todos los usuarios y en parte no:
+
+	Ventas	
+	Desarrollo
+
+lo que va a importar es el usuario que tengo:
+
+	Vendedor
+	Desarrollador
+	Cliente
+
+luego de los usuarios defino la carpeta:
+
+	/APP
+	/Fotos
+
+Luego hacemos un usuario que se llame otro,un grupo que se llame otro,que
+no sea propietario de ninguno de los 2 y no pertenezca a ninguno de los grupos
+
+los 3 usuarios estan relacionados por el grupo ventas,necesito los permisos
+de la gente que lo crea,la gente que pertenece al grupo y no lo crea
+
+si en ls -l : aparece una d  --> directorio
+
+			  -  ---> directorio en comun
+
+			  s  ---> especial
+
+es el primer byte de mis permisos,me va a indicar que tipo de archivo es
+los 3 primeros numeros indican el creador,luego el grupo,y por ultimo todos
+los demas,las cambinaciones dependen de los permisos que queremos dar,entender
+como funcionan los permisos,me permite restringir el acceso a los directorios
+
+
+
 		
