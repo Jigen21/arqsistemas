@@ -42,3 +42,30 @@ sudo fdisk /dev/sdb
 	Despues de hacer el fork de la materia,darle compare desde la base
 	para actualizar los apuntes,no se puede hacer fork devuelta del mismo
 	con pull request
+
+
+
+Usuarios y grupos
+
+	los sistemas opr para poder distribuir las funcionalidades de mi hardware
+	necesitan tener usuarios,segun el sistema los usuarios pueden tener perfiles
+	privilegios o roles,siempre que vamos a usar una computadora van a existir usuarios.
+	pueden ser usuarios fisicos(nosotros) o usuarios de la maquina(aplicaciones,utilitarios)
+	para poder tener el control del hardware y del microprocesador.
+	en WIndows,los privilegios son desiguales,y no se puede administrar de una manera
+	configurable,puedo limitar el uso,o poner carpetas privadas
+	en Linux,el manejo de permisos y sesiones es mucho mas configurable,esta en 
+	cada uno de los archivos y se los puedo modificar,el modificador no es solo
+	para programas,es para todo lo que tengamos una interaccion(doble click,o directorios)
+	para tener acceso a un directorio tiene que ser ejecutable,no solo de lectura y escritura
+	
+	Cuando creamos usuarios o carpetas,tienen que tener el permiso que se lo da el sistema
+	operativo a traves del comando su,y el sudosers(Los usuarios que van a estar permitidos)
+	con los usuarios accedemos al sistema operativo,no a la maquina,un programa es un usuario
+	que usa recursos
+
+	en los dos archivos donde pueden estar los usuarios es "Shadow" y "passwd"
+		
+		en la raiz,luego en /etc,hago un cat de shadow y passwd para ver los usuarios
+
+
