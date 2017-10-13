@@ -116,7 +116,16 @@ Usuarios y grupos
 				qwerty
 		
 
-		sudo mkdir -p Carpeta
+		sudo mkdir -p Carpeta        -> creo la carpeta
 		nos va a pedir nuestra nueva contraseña
 
 		ls -l   ----> va a mostrar los permisos,la carpeta creada va a ser root,root
+
+		user id
+		groups
+
+		usermod -G sudo Axel      ->
+		userdel -r Axel      -> borra el usuario
+		groupdel aula        -> borra el grupo
+
+		
