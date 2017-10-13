@@ -80,17 +80,19 @@ Usuarios y grupos
 
 	vamos a agregar un usuario,con distintos modificadores
 
-		useradd -s /bin/bash -c "usuario Quinteros" -g aula -G sudo,admin Axel
-
+	
 		sudo useradd -s /bin/bash -c "usuario Quinteros" -g aula -G sudo,admin Axel
 
+
+		//sin el -G de group,porque no reconoce el grupo admin,y con sudo para tener permisos
 		sudo useradd -s /bin/bash -c "usuario Quinteros" -g aula sudo Axel
 
 			-s al usuario le pasamos que la consola va a ser /bin/bash
 
-			-c 
+			-c Comentario
 
 			-g atributo principal
+
 			-G grupos secundarios a los que pertenece
 			   y por ultimo el nombre del usuario
 
