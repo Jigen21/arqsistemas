@@ -36,3 +36,9 @@ sudo fdisk /dev/sdb
 	o los listo genericamente con
 		
 			df -h
+
+
+
+	Despues de hacer el fork de la materia,darle compare desde la base
+	para actualizar los apuntes,no se puede hacer fork devuelta del mismo
+	con pull request
