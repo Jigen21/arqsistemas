@@ -76,7 +76,7 @@ Usuarios y grupos
 
 		groupadd aula       --->agregamos un grupo llamado aula
 
-		cat /etc/group      -->vemos el nuevo grupo ingresado
+		grep aula /etc/group      -->vemos el nuevo grupo ingresado
 
 	vamos a agregar un usuario,con distintos modificadores
 
@@ -91,7 +91,7 @@ Usuarios y grupos
 
 			-c Comentario
 
-			-g atributo principal
+			-g atributo(grupo) principal
 
 			-G grupos secundarios a los que pertenece
 			   y por ultimo el nombre del usuario
@@ -170,6 +170,7 @@ es el primer byte de mis permisos,me va a indicar que tipo de archivo es
 los 3 primeros numeros indican el creador,luego el grupo,y por ultimo todos
 los demas,las cambinaciones dependen de los permisos que queremos dar,entender
 como funcionan los permisos,me permite restringir el acceso a los directorios
+probar todas las posibilidades.
 
 
 
