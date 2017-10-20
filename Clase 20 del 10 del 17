@@ -85,6 +85,20 @@ Protocolo
 	el protocolo me permite que exista socker,es algo virtual
 	token es una palabra
 	
+	el cliente o el servidor pueden enviar datos o peticiones,y el otro las recibe
+
+protocolo de transferencia,protocolo http
+
+	los creadores de http son los de w3c y apache
+	porque se dice que http es sin estado?
+	porque protocolo de recibo envio,no importa lo de antes
+	para nosotros http va a ir pegado con html,ya que http es la manera de transferir
+	hipertexto,y html,uno es el protocolo para transferirlo y el otro la estructura
+	para armarlo.
+
+
+
+	
 
 
 	
