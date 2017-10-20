@@ -1,0 +1,22 @@
+20/10/17
+
+		Arquitectura sistemas operativos
+
+hacer fork al repositorio de la materia
+
+la finalidad de github es trabajar con distintas personas,en distintas localidades
+del mundo,para tener un control del software.
+
+ 1ero  -> Fork  ->(para hacer la copia de un repositorio,ya que siempre se van haciendo
+	           cambios o mejoras,vamos a tener la instantanea de la fecha en la que
+		   hicimos el fork,
+
+
+ 2do --> Grupo -> (Cuando somos un grupo de desarrolladores y estamos trabajando en comun,
+ 	 uno que es dueño del repositorio y los otros son los integrantes que tienen
+	 permiso de ese grupo,pero solo tienen los de ellos)(en este caso vamos a tener
+	 una ingenieria)
+
+Practica de github
+
+	en el repositorio de octavio,ir a estilos,y apretar fork.
