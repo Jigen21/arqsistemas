@@ -54,6 +54,35 @@ Protocolo
 	saber como funcionan,en w3c,tenemos la opcion de verificar nuestro sitio web
 	para encontrar los errores que tiene(validator)
 	nuestra bibliografia oficial va a ser w3cschool,la escuela que toma estos datos.
+	los errores no significa que no ande,sino que no respetamos las cosas como w3c
+
+	w3c validator  ->  la pagina que yo quiero
+
+	vamos a ver los protocolos que estan en la capa de la aplicacion,pueden estar
+	corriendo sobre la misma red y el mismo servidor,por ejemplo,contratamos un servicio
+	web,tenemos acceso con un usuario y pw,nos permiste tener acceso a una aplicacion
+	que administrar un puerto con una direccion ip en particular,vamos a poder ingresar
+	y ponerle los protocolos,con chrome seria http,con filezilla seria con ftp,para 
+	nosotros va a ser invisible,ya que el protocolo es una aplicacion,capa de aplicacion
+	como se comunican 2 aplicaciones,el unico protocolo que me interesa,es el protocolo
+	de aplicacion,para los demas existen los tecnicos,
+	
+	los protocolos que vamos a ver intervienen mucho en Cliente - Servidor
+
+	el servidor brinda informacion al cliente a traves de peticiones del cliente
+
+			     |
+			<---p|--->
+		       <     |	  >
+		Cliente	     |	   Servidor
+		       <     |	  >
+			<--i-|--->
+			     |
+
+
+	el concepto de socket,es que mando un mensaje,y se recibe en el celular
+	sin tener que apretar nada,ya que el celular esta escuchando al servidor
+	
 
 
 	
