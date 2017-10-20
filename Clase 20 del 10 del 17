@@ -102,7 +102,48 @@ protocolo de transferencia,protocolo http
 	creamos un archivo PHP,con el visual code,y lo agregamos,va a aparecer la pagina vacia
 
 	<h1> Hola Mundo </h1> ,recargamos la pagina y nos va a aparecer ese mensaje
+
+	las reglas para que ande php:
+
+		tiene que estar en la carpeta htdocs,o la carpeta del servidor
+
+		servidor encendido,y 
 	
+		tercero tiene que estar en un archivo php
+	
+
+	no tiene validez que el cliente encripte algo
+	pasamos los parametros en el buscador despues de "?"  << ?Nombre=Juan
+
+	<?PHP marca el inicio del codigo de php
+
+	var_dump($_get);   //me va a mostrar el valor recibido
+
+	HTML  ->Cliente
+	PHP ->Servidor
+
+	postman,chromium,herramienta que sirve para usar el get y el post.
+
+	usar get y poner  --> localhost:8080/Quinteros/index.php
+
+	postman nos va a servir para testear nuestro servidor
+
+		FrontEnd -->se programa,html,css,javascript
+
+		BackEnd  --> se programa en cualquiera
+
+	el postman es una aplicacion que simula el frontend
+
+
+	en ftp siempre conviene subir solo 1 archivo,aunque sean 10,mejor compromir los 10
+	en un rar,y ese rar extraerlo adentro del servidor,asi es mas rapido tambien
+	
+	el ssh es el telnet de hoy
+
+	p2p es lo que se usa en la pirateria de hoy en dia,las semillas y la trasnferencia
+
+
+
 
 
 	
