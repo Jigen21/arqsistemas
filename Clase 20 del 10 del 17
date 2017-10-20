@@ -36,6 +36,15 @@ Protocolo
 	habia que tener un control de verificacion para recibir los paquetes,
 	otra forma eran las bbs
 	telnet bbs,era lo predecesor a internet,teniamos que saber donde estaba
+	esto era un protocolo,ya que transmitia datos,pero se podia entrar a la maquina
+	solo con el puerto web,ya que no habia medidas de seguridad,lo de telnet no
+	funcionaba,ya que cualquiera podia entrar,entonces encriptaron los datos,ya que
+	cuando pasa de un hardware a otro tiene que tener datos encriptados,saber a donde va,
+	cuando llega a destino tiene que tener la clave para desencriptarlo,para poder recibirlo
+	con toda la informacion,de forma segura y que nadie pueda entrar en todas las
+	capas(recortar la metafora de los sobres)
+
+	el protocolo de internet es tcp/ip  ->modelo 
 
 
 
