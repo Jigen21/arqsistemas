@@ -44,8 +44,16 @@ Protocolo
 	con toda la informacion,de forma segura y que nadie pueda entrar en todas las
 	capas(recortar la metafora de los sobres)
 
-	el protocolo de internet es tcp/ip  ->modelo 
+	el protocolo de internet es tcp/ip
 
+	"w3c",va a ser nuestro regulador para los proximos cuatrimestres
+
+	el apunte habla del modelo OSI.es un modelo de interconexiones,nosotros
+	nos vamos a basar en la ultima capa,la cual es el nivel de validacion
+	los protocolos se pueden usar sin necesidad de entenderlos,pero es mejor
+	saber como funcionan,en w3c,tenemos la opcion de verificar nuestro sitio web
+	para encontrar los errores que tiene(validator)
+	nuestra bibliografia oficial va a ser w3cschool,la escuela que toma estos datos.
 
 
 	
