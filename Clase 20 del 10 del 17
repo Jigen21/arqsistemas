@@ -20,3 +20,8 @@ del mundo,para tener un control del software.
 Practica de github
 
 	en el repositorio de octavio,ir a estilos,y apretar fork.
+	despues del fork de estilo,hacemos un pull request en nuestro repositorio,
+	switch to base,y le damos a los botones verdes(new pull request,create pull request,
+	merge,accept,confirm)
+	
+	aprender merge,branch,pull request.
