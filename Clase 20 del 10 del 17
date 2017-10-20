@@ -97,7 +97,11 @@ protocolo de transferencia,protocolo http
 	para armarlo.
 
 
+	activamos apache,en xampp control panel de incio de windows,entramos a localhost:8080
+	de google,despues vamos a disco C --> xamps --> htdocs,creamos una carpeta con nuestro apellido
+	creamos un archivo PHP,con el visual code,y lo agregamos,va a aparecer la pagina vacia
 
+	<h1> Hola Mundo </h1> ,recargamos la pagina y nos va a aparecer ese mensaje
 	
 
 
