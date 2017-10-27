@@ -46,7 +46,7 @@ los comandos de ftp,para que ande ftp no es necesario el xampp
   FTP
   __________________
   |		    |
-  |	____        |
+  |	____        |  < Imagenes
   |	|   |       |
   |	|   |       |
   |	|___|       |
@@ -58,4 +58,14 @@ los comandos de ftp,para que ande ftp no es necesario el xampp
   |	|___|       |
   |	            |
   |_________________|
+
+bajar una imagen de internet,guardarla con nuestra ip o lo que sea.
+
+IMAGEN
+
+IP "JPG"  o "PNG"     ->la descargamos y la guardamos en la carpeta imagenes
+			de nuestro ftp
+
+
+sftp alumno@192.168.3.119
 
