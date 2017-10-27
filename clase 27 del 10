@@ -69,3 +69,11 @@ IP "JPG"  o "PNG"     ->la descargamos y la guardamos en la carpeta imagenes
 
 sftp alumno@192.168.3.119
 
+con mkdir podemos crear un directorio,con put podemos agregar un archivo
+en la posicion especificada
+
+//descargamos la imagen,le ponemos nuestra ip como el nombre y con el comando
+//put lo agregamos,primero moviendonos a la carpeta con //cd Descargas
+sftp alumno@192.168.3.137
+put /home/alumno/Descargas/192.168.3.119.png
+192.168.3.137 a la del profe actualmente
