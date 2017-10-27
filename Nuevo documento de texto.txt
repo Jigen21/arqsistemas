@@ -1,0 +1,12 @@
+
+De Windows
+
+	configuracion red nat a adaptador puente
+
+	y en avanzada,en direccion de mac tenemos que cambiarla asi no coincide con la de otro compañero
+
+	las dos compus,putty,en ip vamos a poner la ip de la maquina virtual -->192.168.3.119
+
+	logeamos como alumno,alumno,reboot apaga la maquina,deputty,
+
+	ps -ef | grep putty     -> para buscar los procesos con putty y cerrarlos
