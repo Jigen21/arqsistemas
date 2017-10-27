@@ -77,3 +77,17 @@ en la posicion especificada
 sftp alumno@192.168.3.137
 put /home/alumno/Descargas/192.168.3.119.png
 192.168.3.137 a la del profe actualmente
+
+para mandar mensajes de otra compu,se usa el:
+
+		wall hola
+
+	con el echo no lo muestra en la otra compu,puedo entrar al sftp de otra
+	persona usando el putty y logeando a otra maquina primero
+
+owncloud10.03
+
+bajar el owncloud del stfp   -->get owncloud..
+	despues ls,y          --->unzip owncloud..
+
+	netcfg para ver las ip del celular
