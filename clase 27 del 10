@@ -1,0 +1,61 @@
+3.53
+
+en las maquinas con linux,puedo conectarme sin necesidad de tener una consola,
+asi puedo comunicarme a traves de un protocolo encriptado con usuario y password
+como si yo estuviera en la misma maquina,la consola del monitor tiene el mismo
+poder que la otra maquina.
+
+instalar un servidor "openssh"
+
+con sudo:
+	apt-get install openssh-server
+
+a los del error varlip,dpkg usar ---> rm con el subdirectorio
+
+vamos a usar "systemctl" para probar el comando
+
+	-->son todos los servicios que estan manejados,con Q se sale
+
+	-->systemctl status ssh      -->(openssh) es el paquete
+
+    systemctl start ssh   ---> levanta el servicio,lo inicia
+
+la forma de comunicarnos es la configuracion
+
+	ifconfig    ->la ip es la "inet"  --> 192.168.3.119
+
+	con deputty en windows,nos podemos conectar a la maquina virtual con
+	la ip de "inet",luedo podemos usar los comandos de linux para
+	manipularla,enviar mensajes con echo,reiniciarla con reboot,
+
+comando scp
+
+	despues de usar sudo su,asi somos root
+
+	scp /tmp alumno... xampp@192.168.3.116      ->pasamoe l archivo 
+
+	scp /ruta/al/archivo-origen usuario@ordenador:/ruta/al/directorio-destino/
+
+
+conectarnos or ssh a una maquina y copiar un archivo,ssh no es la mas comoda
+por eso existe ftp,para web vamos a usar ftp con interfaz grafica,vamos a ver
+los comandos de ftp,para que ande ftp no es necesario el xampp
+
+	ftp  -->protocolo de transferencia de archivos
+
+  FTP
+  __________________
+  |		    |
+  |	____        |
+  |	|   |       |
+  |	|   |       |
+  |	|___|       |
+  |	 |          |
+  |	 |          |
+  |	_|__        |
+  |	|   |       |
+  |	|   |       |
+  |	|___|       |
+  |	            |
+  |_________________|
+
