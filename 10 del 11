@@ -132,13 +132,13 @@ filetype:pdf
 nslookup www.taringa.net
 ip:104.16.252.64
 
-protocolo de resolucion de nombres
+//ataque arp spoofing
+//envia paquetes falsos,y toma esa informacion
+cada maquina mantiene un cache de las direcciones ip
 
-para no repetir el proceso
-guardo donde encontre
+man in the middle,se obstruye el medio de comunicacion entre
+el emisor y el receptor
 
-//para ver las ips:Funcionamiendo de arp,manda un mensaje unicast
-arp -n         en linux
-arp -a         en windows
-
-//con getway,tenemos 
+sql
+//vulnerabilidades,que no existan estas vulnerabilidades
+//hace 10 años no existen si sabemos programar
