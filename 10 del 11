@@ -1,0 +1,137 @@
+//para iniciar el servidor de lampp,asi funciona
+
+cd /opt/lampp
+sudo ./lampp start
+
+ssh alumno@192.168.3.116
+de esto lo pase al de abajo con chmod -R 777 data
+en opt/lampp/htdocs/owncloud/data/files/photos
+drwxrwx---
+drwxrwxrwx
+agregar como trusted domain en configuracion,o añadir index setting admin,trust
+domain ip,o en configuracion habilitando que entre cualquiera
+en owncloud/config.php,agregar las ips '192.168.2.68'
+
+
+
+
+Delitos informaticos
+
+Ethical hacking
+
+hacking-hackear
+
+
+
+grooming->sicalar,asicalar
+
+fishing->solo los atrapan si le hacen algo a netflix o a un gobierno poderoso
+
+a uno lo contratan,al otro le tienen miedo
+
+ethical hacking->hackeando eticamente
+
+etico->no va a ser nada que no este dentro del contrato,respeta
+	el contrato
+
+vamos a usar google hacking
+
+	1-es la utilizacion de operadores de busqueda para filtrar informacion
+
+	2-se pueden buscar vulneravilidades de seguridad
+
+tor lo hizo la marina de estados unidos,aunque lo usemso le decimos.
+
+operador:termino-a-buscar
+
+no debe haber espacio entre el operador,dos puntos y el termino a buscar
+si el termino a buscar va a ser de una frase,lo encerramos entre comillas
+busqueda de frases.
+
+aerolineas site:clarin.com
+//busca aerolineas en clarin.com
+
+a partir del cuatrimstre que viene es necesario entender la url
+
+johnny.ihackstuff.com/index.php
+Site     INRul           FileType
+
+intitle:angular2
+intext:asd
+
+default password inurlx:"login.php"  <-comillas simples
+
+//busqueda por titulo
+intitle:aerolineas
+
+//lind:aerolineas.com.ar
+link:aerolineas.com.ar
+
+//la cache de la pagina
+cache:www.portantier.com
+
+//excluir(-)
+
+//cuando no sabemos que esta en una palabra u otra,usamos el asterisco
+//en algunos es un signo de multiplicacion
+el presiente voto * la ley
+
+//los lengua esde programacion se dividen en imperativos,o declarativos
+//imperativos,signo de multiplicar&&//declarativos,comodin
+
+//el operador OR,una o varias palabras
+Linux OR Windows
+Linux | Windows   -->un solo pipe,no dos
+
+con control+a,marcamos todo
+
+iniciamos xampp,panel control,iniciamos apache y mysql,
+y vamos a localhost.8080/phpmyadmin
+//asi tenemos la base de datos
+
+creamos la base de datos,copiamos la base datos en sql,y obtenemos
+su base de datos,obtenemos informacion que no es accesible de manera
+normal,solamente usando google,osea legal
+
+site:*.com ext.sql
+site:*.com.ar inurl:public:html
+index of intitle:/ ext.pdf
+inurl."/wp-conten"site:*.gob.ar
+intitle.index of
+
+intitle:index.of"parent directory
+intitle:index.of.admin
+
+//busquedas de servicios
+"Apache/" intitle:index.of
+"Apache/1.1/ intitle:index.of
+"ftp" intitle:index.of
+
+//camaras
+inurl:/view.shtml
+inurl:ViewerFrame?Mode=
+
+Hacking Database
+//puedo bajarme una pagina web entera
+
+https://www.exploit-db.com   ->una vulnerabilidad en el sistema,
+			       explotar una falla y usarla a tu favor
+inurl:axis-cgi/jpg
+intitle:axis intitle:"video server
+
+
+//bing Hacking
+//abrir el bing en windows
+//bsqueda por contenido
+contains.aerolineas
+
+//busqueda de tipo de archivo
+filetype:pdf
+
+//busqueda de tipo ip
+nslookup www.taringa.net
+ip:104.16.252.64
+
+
+
+
