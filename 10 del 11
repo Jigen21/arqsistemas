@@ -132,6 +132,13 @@ filetype:pdf
 nslookup www.taringa.net
 ip:104.16.252.64
 
+protocolo de resolucion de nombres
 
+para no repetir el proceso
+guardo donde encontre
 
+//para ver las ips:Funcionamiendo de arp,manda un mensaje unicast
+arp -n         en linux
+arp -a         en windows
 
+//con getway,tenemos 
