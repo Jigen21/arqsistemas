@@ -1,0 +1,71 @@
+repaso de los protocolos
+
+HTTP
+
+por medio de ssh podemos manipular otra computadora
+tenemos que respetar ciertas reglas para accede
+a usuario,passwords,
+
+http>protocolo de transferencia del texto que vamos
+a enviar.
+todos derivan del post(el que encripta dos datos),
+y de ese lugar salen todos los demas
+en la misma peticion tenemos un enlace que espera
+una llamada abierta(asincronimo).
+la latencia de datos es muy corta,pero podemos
+seguir escuchando,puede estar saturada la pagina.
+
+nube   -----    computadora
+
+
+nuestra nube puede ser nuestra propia maquina
+y tambien envia datos a nuestra computadora
+el get no permite subir archivos,pero todos los
+post si permiten transferir informacion,archivos
+como texto
+
+apires facilita al programador el uso de get,post
+delete,update..
+los [],indican si quiero que sea opcional
+slimframework,de la carpeta backend,vamos a la api.
+
+despues de /api,ponemos nuestro nombre
+
+192.168.2.72:8080/ejemplo
+
+a traves del google chrome,solo puedo usar get
+podemos usar ajax.
+
+192.168.2.72:8080/ejemplo/BackEnd-PHP-jwt/api/axel
+
+o podemos usar Postman,primero tenemos que cerrar todas
+las ventanas de chrome,ya que es un chromium
+en el postman,ponemos la direccion,y probamos con 4 pestañas
+usando el get,put,delete,y post,si le pasamos un parametro
+nos va a tirar error de metodo,por eso se lo pasamos asi
+192.168.2.72:8080/ejemplo/BackEnd-PHP-jwt/api/ <
+
+con el descomprimido del back end,iniciamos apache en xampp
+control panel,vamos al disco c,xampp,htdocs y soltamos la carpeta,
+luego podemos entrar con la ip/(el nombre de la carpeta)
+
+ahora seria localhost:8080/BackEnd-PHP/api/axel
+pero va a tardar 2 segundos en devolver el mensaje,
+pero en ese tiempo de demora se pueda seguir trabajando
+poder transferir datos de forma segura,y del otro lado
+pueda escuchar y determinar ese tiempo
+
+abrimos el codigo php adentro del apires,y copiamos el
+primer get,asi llamamos al 'usuario' o 'usuario(0)'
+.tambien agregamos el sleep(2).
+pasamos distintos parametros con / y corchetes
+
+mockio.io
+mockaroo.com
+
+del mockaroo,vamos al mockio.io con los archivos
+los probamos,con la pagina y el postman
+
+
+
+ip 2.72:8080
